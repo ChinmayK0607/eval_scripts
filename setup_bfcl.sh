@@ -4,7 +4,7 @@ set -euo pipefail
 uv venv
 source .venv/bin/activate
 
-git clone https://github.com/ShishirPatil/gorilla.git || true
+git clone https://github.com/ChinmayK0607/gorilla.git || true
 cd gorilla/berkeley-function-call-leaderboard
 
 uv pip install -e .
